@@ -6,6 +6,14 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import { magic } from "../lib/magic";
+import React, {useState, useEffect} from "react"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+
+import { magic } from "../lib/magic";
 
 const IndexPage = () => { 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
